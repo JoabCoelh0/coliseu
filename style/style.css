@@ -1,0 +1,779 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100vw;
+    height: 90px;
+    background-color: #090909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-bottom: solid 1px rgb(94, 92, 92);
+    
+}
+
+#cabeca{
+    width: 70%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    letter-spacing: 4px;
+    width: 50%;
+}
+
+nav{
+    width: 50%;
+}
+
+nav > ul {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu:hover{
+    color: #dafa5e;
+    cursor: pointer;
+}
+
+.btn-cabeca{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    background-color: #dafa5e;
+}
+
+.btn-cabeca:hover{
+    background-color: rgb(65, 60, 60);
+    color: white;
+    cursor: pointer;
+}
+
+
+/*-------------------------------------------------------------------------*/
+main{
+    background-color: #090909;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(94, 92, 92);
+}
+
+#front-academia{
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box1-front{
+    font-weight: bold;
+    width: 100%;
+    height: 40%;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo > p{
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.frase{
+    width: 300px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #929292;
+}
+
+.box2-front{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pt1-box2{
+    width: 30%  ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pt1-box2-superior{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pt1-box2-superior > p{
+    width: 70%;
+    height: 20%;
+    color: #929292;
+}
+
+
+.pt1-box2-superior > a{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#btn{
+    color: #929292;
+}
+
+
+.btns-pt1-box2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.btns-pt1-box2 > button{
+    width: 110px;
+    height: 40px;
+    border: solid 1px #929292;
+    border-radius: 150px;
+    background-color: #090909;
+    color: #929292;
+    font-weight: bold;
+
+}
+
+.btns-pt1-box2 > button:hover{
+    background-color: #9292922f;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+.pt2-box2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-pt2-box2{
+    width: 70%;
+    height: 100%;
+}
+
+.img-pt2-box2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.pt3-box2{
+    width: 28%;
+    height: 100%;
+}
+
+.pt3-box2-mp4{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #929292;
+}
+
+video{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+#page2-front{
+    height: 30vh;
+    width: 100%;
+    background-color: #090909;
+    border-bottom: 1px solid #929292;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.text-page2{
+    width: 70%;
+}
+
+.text-page2 > p{
+    width: 70%;
+    color: #929292;
+    font-size: 35px;
+
+}
+
+/*-----------------------------------------------------------------------*/
+
+#page3-front{
+    width: 100%;
+    height: 100vh;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quemSomos{
+    width: 70%;
+    height: 15vh;
+    color: #929292;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-page3{
+    width: 35%;
+    height: 100%;
+    font-size: 50px;
+}
+
+.title-page3 > p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+} 
+
+.sobreNoS{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.sobre1, .sobre2{
+    width: 45%;
+    height: 100%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+.img-page3{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    display: inline-block;
+}
+
+.img-page3 > img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    display: block;
+    border-bottom: #929292 solid 1px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom , #090909, rgba(0, 0, 0, 0.123));
+    pointer-events: none; /* Permite clicar na imagem através da camada */
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+#page4-front{
+    height: 30vh;
+    width: 100%;
+    background-color: #090909;
+    border-bottom: 1px solid #929292;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    border-bottom: #929292 solid 1px; 
+
+} 
+
+.discobrir{
+    width: 70%;
+    font-size: 20px;
+    color: #dafa5e;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.explore{
+    color: aliceblue;
+    width: 70%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#page5-front{
+    width: 100vw;
+    height: 100vh;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planos{
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-plano{
+    height: 650px;
+    width: 400px;
+}
+
+.img-plano > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.planoGold, .planoMaster{
+    height: 650px;
+    width: 400px;
+    background-color: #131415;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #929292;
+}
+
+.interior{
+    width: 80%;
+    height: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interior-superior{
+    width: 100%;
+    height: 30%;
+    border-bottom: solid 1px #929292;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pro{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.preco{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    color: aliceblue;
+}
+
+.reais{
+    font-weight: 400;
+    color: #dafa5e;
+}
+
+.text-plano{
+    width: 100%;
+    height: 33%;
+    margin-bottom: 15px;
+}
+
+.interior-baixo{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exercicios{
+    width: 100%;
+    height: 85%;
+
+}
+
+.exercicios > p{
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+.btn-planos{
+    width: 100%;
+    height: 12%;
+    font-size: 14px;
+    border: none;
+    background-color: #dafa5e;
+}
+
+.btn-planos:hover{
+    background-color: #222222;
+    color: #dafa5e;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .btn-matricula{
+        display: none;
+    }
+
+    #cabeca{
+        width: 100%;
+        padding: 0px 20px 0px 20px 
+    }
+    
+    
+    #front-academia{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 20px 0px 20px ;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .box1-front{
+        width: 100%;
+        display: flex;
+        margin: 15px 0px 15px 0;
+        
+    }
+    .pt1-box2{
+        display: none;
+    }
+    .pt2-box2 {
+        width: 100%;
+    }
+
+    .titulo{
+        width: 100%;
+        height: 50%;
+    }
+    .titulo > p{
+        font-size: 70px;
+    }
+    .frase{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-box1{
+        font-size: 65px;
+    }
+    .box2-front{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-pt2-box2{
+        width: 100%;
+        height: 50%;
+    }
+
+    .img-pt2-box2 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pt3-box2-mp4{
+        width: 100%;
+        height: 50%;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .pt3-box2-mp4 > video{
+        width: 100%;
+        height: 80%;
+    }
+
+    .pt3-box2-mp4 > p{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+
+
+
+    .quemSomos{
+        display: flex;
+        width: 100vw;
+        padding: 0px 20px 0px 20px;
+        height: 40vh;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .page2-front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-page2{
+        width: 100vw;
+        padding: 0px 20px 0px 20px;
+        display: flex;  
+    
+    }
+
+    .text-page2{
+        height: 100%;
+        align-items: center;
+    }
+
+    .text-page2 > p{
+        font-size: 26px;
+        color: aliceblue;
+    }
+
+    .sobreNoS{
+        width: 100vw;
+        height: 20vh;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .img-page3 > img{
+        height: 60vh;
+    }
+
+    .title-page3{
+        font-size: 32px;
+        width: 100vw;
+        height:8vh;
+    }
+
+
+    /*---------------------------------------------------------------------*/
+    
+
+
+    .img-plano{
+        display: none;
+    }
+    .planoGold, .planoMaster {
+        margin-top: 40px;
+    }
+
+
+} 
+
+@media screen and (max-width: 1000px){
+    .img-plano{
+        display: none;
+    }
+    .planoGold, .planoMaster {
+        margin-top: 40px;
+    }
+
+
+
+    .btn-matricula{
+        display: none;
+    }
+
+    #cabeca{
+        width: 100%;
+        padding: 0px 20px 0px 20px 
+    }
+    
+    
+    #front-academia{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0px 20px 0px 20px ;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .box1-front{
+        width: 100%;
+        display: flex;
+        margin: 15px 0px 15px 0;
+        
+    }
+    .pt1-box2{
+        display: none;
+    }
+    .pt2-box2 {
+        width: 100%;
+    }
+
+    .titulo{
+        width: 100%;
+        height: 50%;
+    }
+    .titulo > p{
+        font-size: 70px;
+    }
+    .frase{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-box1{
+        font-size: 65px;
+    }
+    .box2-front{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-pt2-box2{
+        width: 100%;
+        height: 50%;
+    }
+
+    .img-pt2-box2 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pt3-box2-mp4{
+        width: 100%;
+        height: 50%;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .pt3-box2-mp4 > video{
+        width: 100%;
+        height: 80%;
+    }
+
+    .pt3-box2-mp4 > p{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+
+
+
+    .quemSomos{
+        display: flex;
+        width: 100vw;
+        padding: 0px 20px 0px 20px;
+        height: 40vh;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .page2-front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-page2{
+        width: 100vw;
+        padding: 0px 20px 0px 20px;
+        display: flex;  
+    
+    }
+
+    .text-page2{
+        height: 100%;
+        align-items: center;
+    }
+
+    .text-page2 > p{
+        font-size: 26px;
+        color: aliceblue;
+    }
+
+    .sobreNoS{
+        width: 100vw;
+        height: 20vh;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .img-page3 > img{
+        height: 60vh;
+    }
+
+    .title-page3{
+        font-size: 32px;
+        width: 100vw;
+        height:8vh;
+    }
+
+}
+
+@media screen and (max-width: 1700px){
+    .planoGold, .planoMaster {
+        margin-top: 40px;
+    }
+    .planos{
+        justify-content: space-around;
+    }
+}   
+
