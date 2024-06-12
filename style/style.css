@@ -7,32 +7,30 @@
 }
 
 header{
-    width: 100vw;
-    height: 90px;
+    width: 100%;
+    height: 150px;
     background-color: #090909;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: aliceblue;
     border-bottom: solid 1px rgb(94, 92, 92);
     
 }
 
 #cabeca{
-    width: 70%;
-    height: 70px;
+    width: 1100px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
 }
 
 .logo{
     letter-spacing: 4px;
-    width: 50%;
+    width: 33%;
 }
 
 nav{
-    width: 50%;
+    width: 33%;
 }
 
 nav > ul {
@@ -46,6 +44,12 @@ nav > ul {
 .menu:hover{
     color: #dafa5e;
     cursor: pointer;
+}
+
+.btn-matricula{
+    width: 33%;
+    display: flex;
+    justify-content: end;
 }
 
 .btn-cabeca{
@@ -67,16 +71,14 @@ nav > ul {
 main{
     background-color: #090909;
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: aliceblue;
     flex-direction: column;
     border-bottom: solid 1px rgb(94, 92, 92);
 }
 
 #front-academia{
-    width: 70vw;
-    height: 90vh;
+    margin: auto;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
     
@@ -85,7 +87,7 @@ main{
 .box1-front{
     font-weight: bold;
     width: 100%;
-    height: 40%;
+    height: 250px;
     display: flex;   
     align-items: center;
     justify-content: space-between;
