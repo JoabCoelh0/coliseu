@@ -271,7 +271,6 @@ video{
 
 .quemSomos{
     width: 70%;
-    height: 15vh;
     color: #929292;
     display: flex;
     flex-wrap: wrap;
@@ -280,13 +279,10 @@ video{
 
 .title-page3{
     width: 35%;
-    height: 100%;
     font-size: 50px;
 }
 
 .title-page3 > p{
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -506,6 +502,7 @@ video{
 
 
 
+
 @media (max-width: 768px){
     .btn-matricula{
         display: none;
@@ -589,7 +586,32 @@ video{
 
 
 
-
+    
+    .page2-front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-page2{
+        width: 100vw;
+        padding: 0px 20px 0px 20px;
+        display: flex;  
+        
+    }
+    
+    .text-page2{
+        height: 100%;
+        align-items: center;
+    }
+    
+    .text-page2 > p{
+        font-size: 26px;
+        color: aliceblue;
+    }
+    
+    
+    
     .quemSomos{
         display: flex;
         width: 100vw;
@@ -598,37 +620,14 @@ video{
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-
-    }
-
-    .page2-front{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text-page2{
-        width: 100vw;
-        padding: 0px 20px 0px 20px;
-        display: flex;  
     
     }
 
-    .text-page2{
-        height: 100%;
-        align-items: center;
-    }
-
-    .text-page2 > p{
-        font-size: 26px;
-        color: aliceblue;
-    }
 
     .sobreNoS{
         width: 100vw;
-        height: 20vh;
         flex-direction: column;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .img-page3 > img{
@@ -636,9 +635,16 @@ video{
     }
 
     .title-page3{
-        font-size: 32px;
+        font-size: 40em;
         width: 100vw;
         height:8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-page3 > p{
+        margin: auto;
     }
 
 
@@ -656,6 +662,17 @@ video{
     }
 
 
+
+    .img-espaços{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-espaços > img{
+        width:  95%;
+        margin-top: 15px;
+    }
 } 
 
 @media (max-width: 1000px){
