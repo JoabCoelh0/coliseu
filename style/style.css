@@ -115,7 +115,7 @@ main{
 
 .frase{
     width: 300px;
-    font-size: 18px;
+    font-size: 2em;
     font-weight: normal;
     color: #929292;
     text-align: justify;
