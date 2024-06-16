@@ -115,7 +115,7 @@ main{
 
 .frase{
     width: 300px;
-    font-size: 2em;
+    font-size: 20px;
     font-weight: normal;
     color: #929292;
     text-align: justify;
@@ -232,6 +232,9 @@ video{
     object-fit: cover;
 }
 
+.pt3-box2-mp4 > p{
+    font-size: 20px;
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -548,6 +551,7 @@ video{
     }
    
     .frase{
+        font-size: 2em;
         width: 100%;
         height: 50%;
         display: flex;
@@ -582,6 +586,10 @@ video{
     .pt3-box2-mp4 > video{
         width: 100%;
     
+    }
+
+    .pt3-box2-mp4 > p{
+        font-size: 2em;
     }
 
 
