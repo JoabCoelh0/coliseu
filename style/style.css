@@ -357,8 +357,13 @@ video{
 .explore{
     color: aliceblue;
     width: 70%;
-    font-size: 50px;
     font-weight: bold;
+
+
+}
+
+.explore > p {
+    font-size: 3rem;
 }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -390,8 +395,8 @@ video{
 }
 
 .planoGold, .planoMaster{
-    height: 650px;
     width: 400px;
+    height: 650px;
     background-color: #131415;
     display: flex;
     align-items: center;
@@ -401,19 +406,21 @@ video{
 }
 
 .interior{
-    width: 80%;
     height: 92%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .interior-superior{
     width: 100%;
-    height: 30%;
     border-bottom: solid 1px #929292;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
+
 }
 
 .pro{
@@ -424,7 +431,6 @@ video{
 
 .preco{
     width: 100%;
-    height: 33%;
     display: flex;
     justify-content: space-between;
     font-size: 35px;
@@ -440,13 +446,11 @@ video{
 
 .text-plano{
     width: 100%;
-    height: 33%;
     margin-bottom: 15px;
 }
 
 .interior-baixo{
     width: 100%;
-    height: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -465,7 +469,7 @@ video{
 
 .btn-planos{
     width: 100%;
-    height: 12%;
+    padding: 10px;
     font-size: 14px;
     border: none;
     background-color: #dafa5e;
@@ -515,6 +519,7 @@ video{
     nav{
         display: none;
     }
+
     
     
     #front-academia{
@@ -546,16 +551,13 @@ video{
     }
    
     .frase{
-        font-size: 2em;
+        font-size: 2rem;
         width: 100%;
         display: flex;
         align-items: center;
         text-align: center;
     }
 
-    .title-box1{
-        font-size: 65px;
-    }
     .box2-front{
         display: flex;
         flex-wrap: wrap;
@@ -676,7 +678,21 @@ video{
     }
 } 
 
-@media (max-width: 1000px){
+@media (max-width: 700px){
+    nav{
+        display: none;
+    }
+    
+    .btn-matricula{
+        display: none;
+    }
+
+    .icon-menu-lateral{
+        display: block;
+    }
+}
+
+@media (max-width: 1100px){
     
     body{
         background-color: #090909;
@@ -687,22 +703,16 @@ video{
     }
     .planoGold, .planoMaster {
         margin-top: 40px;
+        max-width: 100%;
     }
 
-
-    .btn-matricula{
-        display: none;
-    }
 
     #cabeca{
         width: 100%;
         padding: 0px 20px 0px 20px 
     }
     
-    .icon-menu-lateral{
-        display: block;
-        cursor: z;
-    }
+  
     
     
     #front-academia{
@@ -729,21 +739,19 @@ video{
 
     .titulo{
         width: 100%;
-        height: 50%;
     }
     .titulo > p{
         font-size: 70px;
     }
     .frase{
         width: 100%;
-        height: 50%;
         display: flex;
         align-items: center;
         text-align: center;
     }
 
     .title-box1{
-        font-size: 65px;
+        font-size: 4rem;
     }
     .box2-front{
         display: flex;
@@ -825,6 +833,17 @@ video{
         font-size: 32px;
         height:8vh;
         margin: auto;
+    }
+
+    .img-espaços{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-espaços > img{
+        width:  95%;
+        margin-top: 15px;
     }
 
 }
