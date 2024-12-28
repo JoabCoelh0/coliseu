@@ -283,7 +283,7 @@ video{
 .title-page3{
     font-size: 50px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .title-page3 > p{
@@ -656,6 +656,7 @@ video{
 
     .title-page3 > p{
         margin: auto;
+        margin-top: 30px;
     }
 
 
@@ -849,6 +850,9 @@ video{
         font-size: 32px;
         height:8vh;
         margin: auto;
+    }
+    .title-page3 > p {
+        margin-top: 30px;
     }
 
     .img-espaços{
