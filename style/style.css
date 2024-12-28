@@ -125,7 +125,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0px 0px 60px 0px;
+    margin: 0px 0px 30px 0px;
 }
 
 .pt1-box2{
@@ -257,6 +257,7 @@ video{
     width: 100%;
     color: #929292;
     font-size: 35px;
+    text-align: center;
 
 }
 
@@ -282,6 +283,7 @@ video{
 .title-page3{
     font-size: 50px;
     margin: auto;
+    margin-top: 30px;
 }
 
 .title-page3 > p{
@@ -302,6 +304,7 @@ video{
 
 .sobre1, .sobre2{
     margin: 20px 0px;
+    text-align: center;
 }
 
 .img-page3{
@@ -372,6 +375,9 @@ video{
     width: 100%;
     background-color: #090909;
     border-bottom: solid 1px #929292;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -380,8 +386,8 @@ video{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
-    margin-bottom: 60px;
+    margin: 30px 0 30px 0
+
 }
 
 .img-plano{
@@ -484,12 +490,13 @@ video{
 
 
 #page7-front{
-    width: 100vw;
+    width: 100%;
 }
 
 .img-espaços{
     display: flex;
     justify-content: center;
+    width: 99%;
 }
 
 .img-espaços > img{
@@ -600,7 +607,7 @@ video{
     .text-page2{
         width: 100%;
         padding: 0px 20px 0px 20px;
-        display: flex;  
+        display: flex; 
         
     }
     
@@ -608,10 +615,12 @@ video{
         height: 100%;
         align-items: center;
     }
+
     
     .text-page2 > p{
         font-size: 26px;
         color: aliceblue;
+        
     }
     
     
@@ -676,6 +685,11 @@ video{
         width:  95%;
         margin-top: 15px;
     }
+
+    .img-espaços > img:hover{
+        transform: scale(1.0);
+    }
+    
 } 
 
 @media (max-width: 700px){
@@ -693,7 +707,8 @@ video{
 }
 
 @media (max-width: 1100px){
-    
+      
+
     body{
         background-color: #090909;
     }
@@ -746,8 +761,8 @@ video{
     .frase{
         width: 100%;
         display: flex;
-        align-items: center;
         text-align: center;
+        justify-content: center;
     }
 
     .title-box1{
@@ -782,6 +797,7 @@ video{
     .pt3-box2-mp4 > p{
         width: 100%;
         height: 20%;
+        margin-top: 50px;
         text-align: center;
     }
 
